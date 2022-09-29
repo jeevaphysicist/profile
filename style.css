@@ -11,7 +11,8 @@
 body{
     color:rgb(214, 16, 16);
     box-sizing: border-box;
-    background:linear-gradient(blue,green) !important;
+    background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    opacity: 0.6;
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -22,11 +23,9 @@ body{
 .header{
     display: flex;
     flex-direction: row;
-    background-color: blue;
+    background-color: transparent;
     padding: 0;
-    margin-top: 10px;
-    box-shadow: 10px 10px 5px 5px;
-    
+    margin-top: 10px;   
 }
 
 body .name{
@@ -58,9 +57,7 @@ body .name{
     margin: 2rem;
     margin-bottom: 10px;
     font-weight: bolder;
-    font-size: 20px;
-    color: white;
-   
+    font-size: 20px;  
 }
 .value1{
     margin-left: 5rem;
@@ -71,10 +68,11 @@ body .name{
 .value{
     margin-left: 10px;
     font-weight: bolder;
-    color: brown;
+    color: rgb(244, 19, 19);
     font-size: 20px;
 }
 .button{
+    
    margin: 0rem 0 2rem 5rem;
 
 }
@@ -91,7 +89,8 @@ width: 400px;
 height: 400px;
 position: absolute;
 top: 15%;
-left: 50%;
+left: 40%;
+border: 2px solid #302b63  ;
 }
 
 @media only screen and (max-width:500px){
@@ -110,4 +109,23 @@ left: 50%;
 }
 
 
-/* about page */
+/* project page */
+.p-links{
+    border: 2px solid  #0f0c29 ;
+    padding: 10px;
+    border-radius: 20px;
+    width: 50%;
+
+}
+
+.skills span{
+    color: black;
+    line-height: 4;
+}
+.skills ul a{
+    width: 30%;
+}
+.skills ul li span{
+    color: black;
+    
+}
